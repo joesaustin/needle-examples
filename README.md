@@ -23,4 +23,8 @@ Dependencies
 
     $ brew install perceptualdiff
 
+5) If you don't already have it, install nose
+
+    $ pip install nose
+
 
