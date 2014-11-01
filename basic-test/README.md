@@ -1,6 +1,6 @@
 Running a simple Needle test
 ============================
-This code snippet is actually from the needle doc. I figured is a good way to test that your installation of
+This code snippet is actually from the needle doc. I figured it's a good way to test that your installation of
 needle and its dependant modules were successfully installed.
 
 Instructions
