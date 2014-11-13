@@ -11,20 +11,11 @@ Dependencies
 
     $ xcode-select --install
 
-2) Install Python Imaging Library module Pillow
+2) Install the required dependencies Pillow (Python Imaging Library), Needle, and nose.
 
-    $ pip install pillow
+    $ pip install -r requirements.txt
 
-3) Install Needle:
-
-    $ pip install needle
-
-4) Install Percetualdiff. Percetualdiff is a command line tool for compairing differences between images:
+3) Install Percetualdiff. Percetualdiff is a command line tool for compairing differences between images:
 
     $ brew install perceptualdiff
-
-5) If you don't already have it, install nose
-
-    $ pip install nose
-
 

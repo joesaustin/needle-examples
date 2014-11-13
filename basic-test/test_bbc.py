@@ -1,3 +1,4 @@
+import os
 from needle.cases import NeedleTestCase
 
 class MyTests(NeedleTestCase):
@@ -5,5 +6,5 @@ class MyTests(NeedleTestCase):
     
     def test_masthead(self):
         self.driver.implicitly_wait(10)
-        self.driver.get('http://www.bbc.co.uk/news')
+        self.driver.get(os.environ.get('NEEDLE_URL'))
         self.assertScreenshot('#blq-mast', 'bbc-masthead')
