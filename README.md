@@ -11,7 +11,7 @@ Dependencies
 
     $ xcode-select --install
 
-2) Install the required dependencies Pillow (Python Imaging Library), Needle (), and nose.
+2) Install the required dependencies Pillow (Python Imaging Library), Needle, and nose.
 
     $ pip install -r requirements.txt
 
